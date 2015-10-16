@@ -1,1 +1,2 @@
 c:\users\dashti\documents\visual studio 2015\Projects\Amumu\Amumu\bin\Debug\Amumu.exe.config
+C:\Users\Dashti\documents\visual studio 2015\Projects\Amumu\Amumu\obj\Debug\Amumu.csprojResolveAssemblyReference.cache

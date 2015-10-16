@@ -24,14 +24,14 @@ namespace Amumu
 
         private static void OnLoadingComplete(EventArgs args)
         {
-            if (Player.Instance.ChampionName !+ ChampName)
+            if (Player.Instance.ChampionName != ChampName)
             {
              // champ name confirm (ignore these notes)
                 return;
             }
-            SpellManager.Initiliaze();
             SpellManager.Initialize();
             ModeManager.Initialize();
+            Config.Initialize();
 
             Drawing.OnDraw += Drawing_OnDraw;
         }
